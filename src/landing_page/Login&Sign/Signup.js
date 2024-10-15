@@ -42,7 +42,7 @@ const Signup = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/signup",
+        "https://lazarus-backend-emut.onrender.com/signup",
         {
           email,
           password,
