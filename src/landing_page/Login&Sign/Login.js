@@ -35,7 +35,7 @@ const Login = () => {
       console.log("Logging in with:", { email, password });
 
       const { data } = await axios.post(
-        "http://localhost:5000/login",
+        "https://lazarus-backend-emut.onrender.com/login",
         {
           email,
           password,
